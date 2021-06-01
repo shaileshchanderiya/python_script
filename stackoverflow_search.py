@@ -18,13 +18,14 @@ def Stack_over_flow_serach(string, mx):
     for i in range(0,mx):
         print(output[i])
 
-search_str=input("What do you want to search? \n")
+search_str=input("What do you want to search ? \n")
 
 if not search_str:
 	#print("please provide input")
 	sys.exit("please provide input")
 else:
-    Stack_over_flow_serach(search_str,30)	
+    Stack_over_flow_serach(search_str,30)
+
 	
 		
 		

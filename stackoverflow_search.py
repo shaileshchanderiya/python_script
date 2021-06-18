@@ -27,7 +27,6 @@ if not search_str:
 	sys.exit("please provide input")
 else:
     Stack_over_flow_serach(search_str,30)
-
 	
 		
 		
